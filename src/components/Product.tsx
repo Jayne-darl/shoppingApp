@@ -22,7 +22,7 @@ class ProductScreen extends Component<Props> {
                     {this.props.product.name}
                 </Text>
                 <Text style={styles.price} h4>
-                    {this.props.product.price}
+                    ${this.props.product.price}
                 </Text>
                 <Text h6 style={styles.description}>
                     added 1d ago
